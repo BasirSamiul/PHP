@@ -6,9 +6,6 @@
     <title> PHP Variables </title>
 </head>
 <body>
-    <?php
-        $title = "Helloooooooooo!";
-    ?>
     <h1> <?= $title; ?> </h1>
 </body>
 </html>
