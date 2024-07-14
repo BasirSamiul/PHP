@@ -5,15 +5,25 @@
 
     // echo 'Hello, {$my_Name}'
 
-    $he = "Bob";
+    // $he = "Bob";
 
-    $she = "Alice";
+    // $she = "Alice";
 
 
-    $text = <<<TEXT
-    $he said, "PHP is awesome". "Of course" $she agreed.
-    TEXT;
+    // $text = <<<TEXT
+    // $he said, "PHP is awesome". "Of course" $she agreed.
+    // TEXT;
 
-    echo $text;
+    // echo $text;
+
+    $title = "Mysite";
+
+    $header = <<<HEADER
+    <header>
+        <h1> $title </h1>
+    </header>
+    HEADER;
+
+    echo $header;
 
 ?>
