@@ -5,8 +5,13 @@
 
     // echo 'Hello, {$my_Name}'
 
+    $he = "Bob";
+
+    $she = "Alice";
+
+
     $text = <<<TEXT
-    $my_Name is a "Engineer", and also he is a freelancer.
+    $he said, "PHP is awesome". "Of course" $she agreed.
     TEXT;
 
     echo $text;
