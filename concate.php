@@ -26,4 +26,9 @@
 
     echo $header;
 
+    $email = 'webmaster@phptutorial.net';
+    //unset($email);
+
+    var_dump($email);
+
 ?>
