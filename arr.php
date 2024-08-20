@@ -6,6 +6,7 @@
     $ass_array = ['name' => 'Samiul Basir', 'age' => 20];
     print_r($first_array);
     print_r($second_array);
-    print_r($ass_array);    
+    print_r($ass_array); 
+    print_r($ass_array['name'])
 
 ?>
