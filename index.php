@@ -4,5 +4,6 @@
 
     var_dump($title);
     // die();
-    echo " <br> After calling die function." 
+    echo " <br> After calling die function." ;
+    echo "Just Testing"
 ?>
