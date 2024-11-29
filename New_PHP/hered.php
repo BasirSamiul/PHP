@@ -1,10 +1,11 @@
 <?php
-    $he = 'Samiul';
 
-    $she = 'Sukhi';
+$title = 'My site';
 
-    $my_str = <<<SAMIUL
-    $he said, "I love PHP". "Of course, $she also loves it."
-    SAMIUL;
-    print($my_str)
-?>
+$header = <<<HEADER
+<header>
+    <h1>$title</h1>
+</header>
+HEADER;
+
+echo $header;
