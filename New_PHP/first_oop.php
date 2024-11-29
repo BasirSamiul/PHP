@@ -4,22 +4,29 @@
         public $name;
         public $email;
 
+        public function __construct($name, $email){
+            echo "Hey, I am default constructor.<br/>";
+            $this -> name = $name;
+            $this -> email = $email;
+        }
         
         public function user($name, $email){
             echo "Hey, {$name}!!! you are now {$email}";
         }
 
         public function login(){
-            echo "Login";
+            echo $this->name . " Login" . "<br />";
         }
 
     }
 
-    $my_user = new User();
-    $my_user -> name = "Samiul Basir";
-    $my_user -> email = "samuil@gmail.com";
+    $user = new User("Samiul Basir", "samuil@gmail.com");
 
-    $my_user -> login();
+    $user -> login();
+
+    $user1 = new User("Balkana", "balkana@gmail.com");
+
+    $user1 -> login();
 
     // var_dump($my_user);
 
