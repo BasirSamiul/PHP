@@ -1,10 +1,9 @@
 <?php
 
-$message = 'Hi';
-$say = function () use ($message) {
-	$message = 'Hello';
-	echo $message;
-};
+    function add (int $x, int $y) : int { return $x + $y;}
 
-$say();
-echo $message;
+    $results = call_user_func_array('add', [10,20]);
+
+    echo $results; // Output: 30
+
+?>
