@@ -6,6 +6,11 @@
 
     echo $results; // Output: 30
     define('APP_NAME', 'My Awesome App');
-    echo APP_NAME; // Output: My Awesome App
+    echo APP_NAME; 
+    $my_var= 'title';
+    $$my_var = 'PHP variable variables';
+
+    echo $my_var; 
+    echo $title;
 
 ?>
